@@ -40,7 +40,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                    Resumem <BsFillPersonLinesFill size={30} />
+                    Resumen <BsFillPersonLinesFill size={30} />
                 </>
             ),
             href: '/resume.pdf',
