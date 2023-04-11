@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20 ">
-          Soy un joven apasionado por la tecnología y la programación, con
+          Soy un entusiasta de la tecnología y la programación, con
           habilidades en HTML, CSS, JavaScript, React y GitHub. Desde que
           finalicé la escuela secundaria como técnico electromecánico, he
           trabajado en diferentes áreas, incluyendo ferretería, cableado y
