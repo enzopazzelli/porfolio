@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/enzo-pazzelli-43666522a/',
             style: 'rounded-tr-md'
         },
         {
@@ -33,7 +33,7 @@ const SocialLinks = () => {
                     Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href: 'mailto:foo@gmail.com',
+            href: 'mailto:enzopazzelli1@gmail.com',
 
         },
         {
