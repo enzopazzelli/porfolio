@@ -1,17 +1,29 @@
 import React from 'react'
 import Bibliotek from '../../assets/bibliotek.jpg'
 import inProcess from '../../assets/process.jpg'
+import citasApp from '../../assets/citasapp.jpg'
+import Raise from '../../assets/raise.png'
 
 const Portfolio = () => {
 
   const portfolios = [
     {
       id: 1,
-      src: Bibliotek
+      src: Bibliotek,
+      codeLink: "https://github.com/enzopazzelli/Bibliotek",
+      demoLink: "https://bibliotek-m1.netlify.app"
     },
     {
       id: 2,
-      src: inProcess
+      src: citasApp,
+      codeLink: "https://github.com/enzopazzelli/citas_app",
+      demoLink: "https://ejp-citasapp.netlify.app"
+    },
+    {
+      id: 3,
+      src: Raise,
+      codeLink: "https://github.com/enzopazzelli/raise-website",
+      demoLink: "https://raise-web.netlify.app/"
     }
   ]
 
@@ -25,19 +37,27 @@ const Portfolio = () => {
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
          
-         {
-           portfolios.map(({ id, src }) => {
-            return (
-              <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-               <img src={src} alt="" className='h-[200px] w-full object-cover rounded-md duration-200 hover:scale-105' />
-                <div className='flex items-center justify-center'>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                </div>
-              </div>
-            );
-          })
-          }
+        {
+  portfolios.map(({ id, src, codeLink, demoLink }) => {
+    return (
+      <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+        <img
+          src={src}
+          alt=""
+          className='h-[200px] w-full object-cover rounded-md duration-200 hover:scale-105'
+        />
+        <div className='flex items-center justify-center'>
+          <a href={codeLink} target="_blank" rel="noopener noreferrer">
+            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+          </a>
+          <a href={demoLink} target="_blank" rel="noopener noreferrer">
+            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
+          </a>
+        </div>
+      </div>
+    );
+  })
+}
 
         </div>
       </div>

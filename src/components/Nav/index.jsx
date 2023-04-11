@@ -13,7 +13,7 @@ const Nav = () => {
     },
     {
       id: 2,
-      link: 'about'
+      link: 'sobre mi'
     },
     {
       id: 3,
@@ -21,11 +21,11 @@ const Nav = () => {
     },
     {
       id: 4,
-      link: 'experience'
+      link: 'experiencia'
     },
     {
       id: 5,
-      link: 'contact'
+      link: 'contacto'
     },
   ];
 

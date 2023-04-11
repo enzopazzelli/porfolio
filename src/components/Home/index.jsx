@@ -8,12 +8,11 @@ const Home = () => {
     <div name='home' className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
-          <h2 className='text-4xl sm:text-6xl font-bold text-white'>Soy un Developer Trainee</h2>
+          <h2 className='text-4xl sm:text-7xl font-bold text-white'>Soy un Developer Trainee</h2>
           <p className='text-gray-500 py-4 max-w-md'>
             Tengo algunos meses de experiencia en diseño de Software.
             Actualmente formo parte del Team Raise, academia en la cual se
-            enseñan tecnologias como
-            HTML, CSS, Javascript y React
+            enseñan tecnologias como HTML, CSS, Javascript y React, con el objetivo de acortar la brecha en tecnología y la demanda insatisfecha de empleos en la Industria del Software
           </p>
 
           <div>
@@ -34,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
