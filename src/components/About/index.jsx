@@ -26,7 +26,7 @@ const About = () => {
           Como estudiante de sociología, siempre he estado interesado en
           entender cómo la tecnología impacta nuestras vidas diarias. La verdad
           es que la tecnología está en todas partes, desde nuestras computadoras
-          hasta nuestros teléfonos inteligentes, y su impacto en la sociedad es
+          hasta nuestros teléfonos, y su impacto en la sociedad es
           enorme. Por eso, estoy super emocionado por aprender más habilidades
           en el campo de la tecnología. Me encanta experimentar con nuevas
           herramientas y tecnologías, y siempre estoy buscando maneras de
